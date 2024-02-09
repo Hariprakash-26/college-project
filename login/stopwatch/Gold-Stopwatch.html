@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gold Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body >
+    <video autoplay muted loop id="myVideo">
+      <source src="live-backdrops/mylivewallpapers-com-Leaves-4K.mp4" type="video/mp4">
+      
+    </video>
+   
+        <div class="stopwatch">
+            <h1><span class="gold">STOPWATCH</span> </h1>
+            <div class="circle">
+              <span class="time" id="display">00:00:00</span>
+            </div>
+      
+            <div class="controls">
+              <button class="buttonPlay">
+                <img id="playButton" src="play-button.png" />
+      
+                <img id="pauseButton" src="pause.png" />
+              </button>
+      
+              <button class="buttonReset">
+                <img id="resetButton" src="stop.png" />
+              </button>
+            </div>
+         
+    </div>
+   
+    <script src="script.js"></script>
+  </body>
+</html>

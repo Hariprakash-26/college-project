@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+    <style>
+        .main-box{
+            width: 520px;
+            height: 750px;
+            display: flex;
+            justify-content: space-around;
+            flex-flow: row wrap;
+            margin: auto;
+            margin-top: 120px;
+            row-gap: 1px; 
+            border-radius: 10px;
+           position: relative;
+           opacity: 0.65;
+
+        
+        
+
+            
+        }
+        button{
+            width: 247px;
+            height: 233px;
+            border-radius: 10px;
+            border: none;
+            margin-top: 6px;            
+        }
+       .alarm{
+        height: 100px;
+       } 
+       .alarm-button{
+        background-image: linear-gradient(to left,rgb(107, 79, 31),rgba(82, 75, 38, 0.637));
+        cursor: pointer;
+       }
+       
+       
+
+       .time-tracking{
+            height: 110px;
+       }
+       .time-button{
+        background-image: linear-gradient(to right, rgb(107, 79, 31),rgba(82, 75, 38, 0.637));
+        cursor: pointer;
+       }
+       .to-do-list{
+        height: 110px;
+       }
+       .to-do-button{
+        background-image: linear-gradient(to left, rgb(107, 79, 31),rgba(82, 75, 38, 0.637));
+        cursor: pointer;
+       }
+       body{
+    
+       }
+       #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+ 
+}
+@media (min-aspect-ratio: 16/9) {
+  #myVideo {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #myVideo {
+    width: auto; 
+    height: 100%;
+  }
+}
+        
+    </style>
+    </head>
+
+    <body >
+        <video autoplay muted loop id="myVideo">
+            <source src="live-backdrops/mylivewallpapers-com-Leaves-in-Bedroom-4K.mp4" type="video/mp4">
+            
+          </video>
+            <div class="main-box">
+                <a href="">
+
+                    <button class="alarm-button" > <img class="alarm" src="alarm.png" alt=""></button>
+                </a>
+                <a href="stopwatch/Gold-Stopwatch.html">
+                    <button  class="time-button"><img class="time-tracking" src="time-tracking.png" alt=""></button>
+                </a>
+                <a href="to-do-list/to-do-index.html">
+                    <button class="to-do-button"><img class="to-do-list" src="to-do-list.png" alt=""></button>
+                </a>
+               
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+        
+        
+        
+    </body>
+</html>
